@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+.card {
+  @apply mx-auto bg-gradient-to-t from-digitalLavander to-galacticCobalt rounded-md shadow-lg  w-96
+     mt-20  p-24 flex justify-center;
+}
+
+@tailwind utilities;
